@@ -1,0 +1,5 @@
+
+server.port: 3007
+
+spring:
+  application.name: ORDER-SERVICE

@@ -1,0 +1,18 @@
+
+server.port: 3008
+
+spring:
+  application.name: PRODUCT-SERVICE
+  profile: dev
+  datasource:
+    driver-class-name: mongodb.jdbc.MongoDriver
+  data:
+    mongodb:
+      database: product-service
+      host: localhost
+      password: rootpass
+      port: 27017
+      username: rootuser
+      auto-index-creation: true
+      authentication-database: admin
+
