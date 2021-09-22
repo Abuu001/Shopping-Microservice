@@ -15,4 +15,7 @@ spring:
       username: rootuser
       auto-index-creation: true
       authentication-database: admin
-
+  cloud:
+    config:
+      uri: http://localhost:8888
+      enabled: true
