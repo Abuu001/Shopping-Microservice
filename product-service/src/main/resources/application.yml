@@ -1,9 +1,7 @@
 
-server.port: 3008
+
 
 spring:
-  application.name: PRODUCT-SERVICE
-  profile: dev
   datasource:
     driver-class-name: mongodb.jdbc.MongoDriver
   data:
@@ -15,7 +13,3 @@ spring:
       username: rootuser
       auto-index-creation: true
       authentication-database: admin
-  cloud:
-    config:
-      uri: http://localhost:8888
-      enabled: true
